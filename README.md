@@ -1,7 +1,8 @@
-Hamburg Hospital Shortest Path Analysis
+**Hamburg Hospital Shortest Path Analysis**
+
 This project analyzes the road network of Hamburg and computes the shortest path from random locations to the nearest hospital. The system uses three graph algorithms: Dijkstra’s, A*, and Kruskal’s (Minimum Spanning Tree). Data is retrieved from OpenStreetMap via OSMnx.
 
-1. Project Structure.
+**1. Project Structure.**
 
 ├── main.py
 
@@ -20,7 +21,7 @@ This project analyzes the road network of Hamburg and computes the shortest path
 └── README.md
 
 
-2. Installation
+**2. Installation**
 
 Create a virtual environment:
 python -m venv .venv
@@ -35,7 +36,7 @@ On Windows:
 Install dependencies:
 pip install osmnx networkx geopandas scikit-learn
 
-3. Running the Program
+**3. Running the Program**
 python main.py
 
 This will:
@@ -52,25 +53,28 @@ E. Compare Dijkstra vs A* runtimes.
 
 F. Compute a Minimum Spanning Tree using Kruskal.
 
-Output
+**4. Output**
+
 For each scenario, you will see:
 
-Nearest hospital name
+i. Nearest hospital name
 
-Distance (meters)
+ii. Distance (meters)
 
-Runtime (seconds) for both Dijkstra and A*
+iii. Runtime (seconds) for both Dijkstra and A*
 
-Algorithms Used
+iv. Algorithms Used
 
-Dijkstra: Greedy shortest path algorithm that expands the closest unvisited node.
+v. Dijkstra: Greedy shortest path algorithm that expands the closest unvisited node.
 
-A*: Informed search using a heuristic (Euclidean distance) to guide the search.
+vi. A*: Informed search using a heuristic (Euclidean distance) to guide the search.
 
-Kruskal: Greedy algorithm used to compute the Minimum Spanning Tree of the entire graph.
+vii. Kruskal: Greedy algorithm used to compute the Minimum Spanning Tree of the entire graph.
 
 
 
-Author:
+**5. Author:**
 
 Chehab Hany
+
+Gisma University of Applied Sciences
