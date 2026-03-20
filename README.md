@@ -2,6 +2,7 @@ Hamburg Hospital Shortest Path Analysis
 This project analyzes the road network of Hamburg and computes the shortest path from random locations to the nearest hospital. The system uses three graph algorithms: Dijkstra’s, A*, and Kruskal’s (Minimum Spanning Tree). Data is retrieved from OpenStreetMap via OSMnx.
 
 1. Project Structure.
+
 ├── main.py
 
 ├── data_loader.py
