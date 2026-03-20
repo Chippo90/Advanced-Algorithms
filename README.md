@@ -20,13 +20,12 @@ This project analyzes the road network of Hamburg and computes the shortest path
 └── README.md
 
 
-3. Installation
+2. Installation
 
 Create a virtual environment:
 python -m venv .venv
 
 Activate the environment:
-
 On macOS/Linux:
 source .venv/bin/activate
 
@@ -42,23 +41,36 @@ python main.py
 This will:
 
 Load the Hamburg road network graph.
-Load hospital data from OpenStreetMap.
-Map hospitals to nearest graph nodes.
-Run 5 scenarios (random locations).
-Compare Dijkstra vs A* runtimes.
-Compute a Minimum Spanning Tree using Kruskal.
-Output
 
+Load hospital data from OpenStreetMap.
+
+Map hospitals to nearest graph nodes.
+
+Run 5 scenarios (random locations).
+
+Compare Dijkstra vs A* runtimes.
+
+Compute a Minimum Spanning Tree using Kruskal.
+
+Output
 For each scenario, you will see:
 
 Nearest hospital name
+
 Distance (meters)
+
 Runtime (seconds) for both Dijkstra and A*
+
 Algorithms Used
+
 Dijkstra: Greedy shortest path algorithm that expands the closest unvisited node.
+
 A*: Informed search using a heuristic (Euclidean distance) to guide the search.
+
 Kruskal: Greedy algorithm used to compute the Minimum Spanning Tree of the entire graph.
-Screenshots
+
+
 
 Author:
+
 Chehab Hany
