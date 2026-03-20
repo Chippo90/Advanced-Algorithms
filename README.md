@@ -35,22 +35,22 @@ On Windows:
 Install dependencies:
 pip install osmnx networkx geopandas scikit-learn
 
-Running the Program
+3. Running the Program
 python main.py
 
 This will:
 
-Load the Hamburg road network graph.
+A. Load the Hamburg road network graph.
 
-Load hospital data from OpenStreetMap.
+B. Load hospital data from OpenStreetMap.
 
-Map hospitals to nearest graph nodes.
+C. Map hospitals to nearest graph nodes.
 
-Run 5 scenarios (random locations).
+D. Run 5 scenarios (random locations).
 
-Compare Dijkstra vs A* runtimes.
+E. Compare Dijkstra vs A* runtimes.
 
-Compute a Minimum Spanning Tree using Kruskal.
+F. Compute a Minimum Spanning Tree using Kruskal.
 
 Output
 For each scenario, you will see:
