@@ -23,6 +23,9 @@ This project analyzes the road network of Hamburg and computes the shortest path
 
 **2. Installation**
 
+Clone repository:
+https://github.com/Chippo90/Advanced-Algorithms.git
+
 Create a virtual environment:
 python -m venv .venv
 
