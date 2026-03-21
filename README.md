@@ -55,6 +55,7 @@ E. Compare Dijkstra vs A* runtimes.
 
 F. Compute a Minimum Spanning Tree using Kruskal.
 
+
 **4. Output**
 
 For each scenario, you will see:
