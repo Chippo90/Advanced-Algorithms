@@ -3,22 +3,21 @@
 This project analyzes the road network of Hamburg and computes the shortest path from random locations to the nearest hospital. The system uses three graph algorithms: Dijkstra’s, A*, and Kruskal’s (Minimum Spanning Tree). Data is retrieved from OpenStreetMap via OSMnx.
 
 **1. Project Structure.**
+- main.py
 
-├── main.py
+- data_loader.py
 
-├── data_loader.py
+- graph_utils.py
 
-├── graph_utils.py
+- dijkstra.py
 
-├── dijkstra.py
+- astar.py
 
-├── astar.py
+- kruskal.py
 
-├── kruskal.py
+- evaluation.py
 
-├── evaluation.py
-
-└── README.md
+- README.md
 
 
 **2. Installation**
@@ -75,9 +74,8 @@ vi. A*: Informed search using a heuristic (Euclidean distance) to guide the sear
 vii. Kruskal: Greedy algorithm used to compute the Minimum Spanning Tree of the entire graph.
 
 
-
 **5. Author:**
 
-Chehab Hany
+Chehab Hany Mohamed
 
 Gisma University of Applied Sciences
